@@ -7,7 +7,7 @@ require("./database/database")
 const LotteryStateController = require('./controller/LotteryStateController')
 
 
-const port = process.env.PORT || 4001;
+const port = 44727;
 
 const httpServer = require("http").createServer();
 const io = socket(httpServer, {
